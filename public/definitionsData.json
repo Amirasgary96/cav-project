@@ -1,0 +1,38 @@
+[
+ {
+   "A": "Term",
+   "B": "Standardized Definition"
+ },
+ {
+   "A": "Critical Action Value (CAV)",
+   "B": "Laboratory results that indicate a patient may have an immediately threatening medical problem requiring prompt intervention by an authorized prescriber. A result is classified as a critical action value if it has been included on the list sponsored and reviewed regularly by the Laboratory Advisory Committee and Medical Staff committee review structure."
+ },
+ {
+   "A": "Secure electronic communication",
+   "B": "An electronic mechanism approved by Johns Hopkins Medicine that can be used to efficiently communicate protected health information including critical action values."
+ },
+ {
+   "A": "Two step acknowledgement",
+   "B": "An electronic process that allows a prescriber to acknowledge the receipt of the critical action value, followed by either confirmation that the provider will accept responsibility for the CAV or decline such responsibility."
+ },
+ {
+   "A": "Authorized RN Primary Receiver",
+   "B": "A registered nurse in Emergency Departments, Perioperative areas, and Procedure areas who routinely receives the critical action values for that area. The primary receiver is responsible for notifying the authorized provider as defined per policy."
+ },
+ {
+   "A": "Authorized RN Secondary Receiver",
+   "B": "Accepts CAV only if covering provider is not able to be contacted after two attempts by the reporting department (e.g., inpatient areas, ambulatory clinics). Upon receipt of the CAV, immediately contacts the covering provider and documents in the EHR."
+ },
+ {
+   "A": "Read Back",
+   "B": "A method used to ensure understanding of information being communicated. This process involves the receiver of a test result to write down the result, read it back, and receive confirmation from the individual who reported the test result."
+ },
+ {
+   "A": "Repeat Back",
+   "B": "The same methodology used in \"Read Back\" but when the result is given to a provider (MD/APRN/PA), writing down of the test result is not required."
+ },
+ {
+   "A": "Responsible Licensed Caregiver",
+   "B": "Physician, Nurse Practitioner (APRN/ARNP), Physician Assistant (PA), Respiratory Therapist (RT), or Registered Nurse (RN) who is authorized to modify treatment."
+ }
+]

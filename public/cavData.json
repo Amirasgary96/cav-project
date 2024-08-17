@@ -1,0 +1,758 @@
+[
+ {
+   "A": "Test Name",
+   "B": "Critical Low",
+   "C": "Critical High",
+   "D": "Units",
+   "E": "Clinical Significance",
+   "F": "Potential Causes & Risk Factors",
+   "G": "Recommended Immediate Actions"
+ },
+ {
+   "A": "WBC",
+   "B": "<1.2 (>2 weeks)\n<5.0 (<2 weeks)",
+   "C": ">30.0 (Adult)\n>25.0 (Neonates)",
+   "D": "K/mm³",
+   "E": "Indicates immune response. Critical low may suggest severe infection or bone marrow failure; critical high could indicate leukemia.",
+   "F": "Severe infection, bone marrow suppression, leukemia, stress.",
+   "G": "Re-test, administer broad-spectrum antibiotics, consult hematology."
+ },
+ {
+   "A": "Hemoglobin",
+   "B": "<6.0 (>8 weeks)\n<8.0 (4-8 weeks)\n<10.0 (2-4 weeks)\n<12.0 (0-2 weeks)",
+   "C": ">22.0 or >22.1",
+   "D": "g/dL",
+   "E": "Oxygen-carrying capacity of blood. Critical low leads to hypoxia; critical high suggests polycythemia or dehydration.",
+   "F": "Blood loss, chronic disease, bone marrow disorders, dehydration.",
+   "G": "Transfuse packed red blood cells, monitor oxygen saturation."
+ },
+ {
+   "A": "Hematocrit",
+   "B": "<18.0",
+   "C": ">60.0",
+   "D": "%",
+   "E": "Proportion of blood volume occupied by red cells. Low suggests anemia; high suggests dehydration or polycythemia.",
+   "F": "Anemia, dehydration, lung disease, polycythemia.",
+   "G": "Administer IV fluids or transfusion, consult hematology."
+ },
+ {
+   "A": "Platelets",
+   "B": "<30 (Adult)\n<100 (Neonates)",
+   "C": ">1,000 (Neonates)",
+   "D": "K/mm³",
+   "E": "Blood clotting. Low platelets risk bleeding; high levels may indicate clotting disorders.",
+   "F": "Bone marrow failure, immune thrombocytopenia, infection, cancer.",
+   "G": "Transfuse platelets, assess for bleeding, consult hematology."
+ },
+ {
+   "A": "Glucose",
+   "B": "<60 (Inpatient & ED) \n<50 (Outpatient)\n<40 (Neonate)",
+   "C": ">400 (Adult)\n>150 (Neonate)",
+   "D": "mg/dL",
+   "E": "Primary energy source for cells. Low glucose leads to hypoglycemia; high glucose could result in ketoacidosis or hyperosmolar syndrome.",
+   "F": "Insulin overdose, sepsis, diabetes, corticosteroids.",
+   "G": "Administer IV glucose or insulin, monitor blood glucose levels."
+ },
+ {
+   "A": "Potassium",
+   "B": "<3.0",
+   "C": ">6.1 or >6.5",
+   "D": "mmol/L or mEq/L",
+   "E": "Regulates heart and muscle function. Low potassium can cause arrhythmias; high can lead to cardiac arrest.",
+   "F": "Renal failure, diuretics, ACE inhibitors, hyperaldosteronism.",
+   "G": "Administer potassium IV/PO, ECG monitoring, treat underlying cause."
+ },
+ {
+   "A": "Sodium",
+   "B": "<120 or <125 or <126",
+   "C": ">154 or >160",
+   "D": "mmol/L or mEq/L",
+   "E": "Essential for nerve, muscle function. Low sodium causes hyponatremia; high leads to hypernatremia, both affecting mental status.",
+   "F": "Dehydration, diuretics, SIADH, diabetes insipidus.",
+   "G": "Administer sodium IV, monitor neurological status, treat underlying cause."
+ },
+ {
+   "A": "Calcium",
+   "B": "<6.0 or <6.5",
+   "C": ">12.0 or >13.0",
+   "D": "mg/dL",
+   "E": "Bone health and neuromuscular function. Low calcium may cause tetany; high can lead to cardiac arrhythmias.",
+   "F": "Vitamin D deficiency, parathyroid disorders, renal failure.",
+   "G": "Administer calcium IV, monitor cardiac rhythm, consult endocrinology."
+ },
+ {
+   "A": "Ionized Calcium",
+   "B": "<0.75 or <0.9",
+   "C": ">1.5 or >1.55 or >1.6",
+   "D": "mmol/L",
+   "E": "Critical for muscle contraction and nerve function. Low ionized calcium affects cardiac rhythm; high affects neuromuscular function.",
+   "F": "Parathyroid dysfunction, kidney failure, multiple transfusions.",
+   "G": "Administer calcium gluconate, monitor ECG, treat underlying cause."
+ },
+ {
+   "A": "Magnesium",
+   "B": "<1.0 or <1.2",
+   "C": ">3.5 or >4.0 or >4.9",
+   "D": "mg/dL",
+   "E": "Cofactor in enzyme activity. Low magnesium causes muscle cramps; high can depress the central nervous system.",
+   "F": "Alcoholism, renal disease, proton pump inhibitors, diuretics.",
+   "G": "Administer magnesium IV, monitor reflexes and ECG."
+ },
+ {
+   "A": "Phosphorus",
+   "B": "<1.0",
+   "C": ">9.5 (0-12 months)",
+   "D": "mg/dL",
+   "E": "Important for energy production and bone health. Low phosphorus leads to muscle weakness; high can cause renal damage.",
+   "F": "Chronic kidney disease, DKA, tumor lysis syndrome, malnutrition.",
+   "G": "Administer phosphorus IV, consult nephrology, monitor serum levels."
+ },
+ {
+   "A": "Troponin",
+   "B": "None specified",
+   "C": ">52\n≥40 (Neonate)",
+   "D": "ng/L",
+   "E": "Indicator of myocardial injury. Elevated troponin suggests acute coronary syndrome or myocardial infarction.",
+   "F": "Acute coronary syndrome, myocarditis, cardiac surgery, trauma.",
+   "G": "Administer anticoagulants, consult cardiology, admit to ICU."
+ },
+ {
+   "A": "Lactic Acid",
+   "B": "None specified",
+   "C": ">2.0 or >2.2 or ≥4.0",
+   "D": "mmol/L",
+   "E": "Indicator of tissue hypoxia. Elevated levels suggest anaerobic metabolism, often due to sepsis or shock.",
+   "F": "Sepsis, shock, cardiac arrest, severe hypoxia.",
+   "G": "Administer IV fluids, antibiotics, monitor lactate clearance."
+ },
+ {
+   "A": "pH (arterial)",
+   "B": "<7.25",
+   "C": ">7.55",
+   "D": "N/A",
+   "E": "Measures blood acidity. Low pH indicates acidosis, high pH indicates alkalosis, critical in respiratory/metabolic disorders.",
+   "F": "Respiratory failure, metabolic disturbances, poisoning, diabetic ketoacidosis.",
+   "G": "Address underlying cause (e.g., ventilate for respiratory acidosis), re-check ABG."
+ },
+ {
+   "A": "Ammonia",
+   "B": "None specified",
+   "C": ">100",
+   "D": "μmol/L or mEQ/L",
+   "E": "Elevated levels indicate liver dysfunction or severe metabolic disorders, often linked to hepatic encephalopathy.",
+   "F": "Liver failure, inherited metabolic disorders, severe infection.",
+   "G": "Administer lactulose, treat underlying cause, consider dialysis."
+ },
+ {
+   "A": "INR",
+   "B": "None specified",
+   "C": ">4.0 or >5.0",
+   "D": "N/A",
+   "E": "Assesses coagulation. High INR suggests bleeding risk due to anticoagulation or liver disease.",
+   "F": "Warfarin therapy, liver disease, vitamin K deficiency.",
+   "G": "Adjust anticoagulant dose, administer vitamin K, monitor for bleeding."
+ },
+ {
+   "A": "Fibrinogen",
+   "B": "<100",
+   "C": ">800",
+   "D": "mg/dL",
+   "E": "Critical for blood clot formation. Low levels indicate risk of bleeding; high levels suggest inflammation or fibrinolysis.",
+   "F": "DIC, liver disease, sepsis, trauma.",
+   "G": "Administer cryoprecipitate or FFP, treat underlying cause, consult hematology."
+ },
+ {
+   "A": "CSF WBC",
+   "B": "None specified",
+   "C": ">5",
+   "D": "/mm³",
+   "E": "Elevated WBCs in CSF suggest infection like meningitis; critically high levels can indicate severe inflammation.",
+   "F": "Bacterial meningitis, viral encephalitis, traumatic lumbar puncture.",
+   "G": "Start broad-spectrum antibiotics, initiate antiviral therapy if indicated, consider lumbar puncture."
+ },
+ {
+   "A": "CSF Blasts",
+   "B": "None specified",
+   "C": ">0 or >1",
+   "D": "/mm³",
+   "E": "Presence of blasts in CSF is indicative of leukemic involvement or other malignancies.",
+   "F": "Leukemia, lymphoma, metastasis to CNS.",
+   "G": "Consult oncology, initiate appropriate chemotherapy or radiation."
+ },
+ {
+   "A": "Acetaminophen",
+   "B": "None specified",
+   "C": ">200 or >50",
+   "D": "mg/L",
+   "E": "Toxic levels can cause liver damage. Monitoring required to avoid hepatotoxicity, especially in overdose cases.",
+   "F": "Overdose, chronic use, concurrent hepatotoxic drugs.",
+   "G": "Administer N-acetylcysteine, monitor liver function, consider liver transplant evaluation."
+ },
+ {
+   "A": "Carbamazepine",
+   "B": "None specified",
+   "C": ">15",
+   "D": "mg/L or mg/dL",
+   "E": "Anticonvulsant with narrow therapeutic window; toxicity can lead to CNS depression or cardiac issues.",
+   "F": "Overdose, drug interactions, renal impairment.",
+   "G": "Adjust dose, perform charcoal hemoperfusion if indicated, monitor serum levels."
+ },
+ {
+   "A": "Digoxin",
+   "B": "None specified",
+   "C": ">2.5 or >3.0",
+   "D": "ng/mL",
+   "E": "Cardiac glycoside for heart conditions. Toxicity causes arrhythmias, gastrointestinal, and CNS symptoms.",
+   "F": "Renal failure, drug interactions, age-related pharmacokinetics.",
+   "G": "Administer digoxin-specific antibody fragments, monitor cardiac function, consider dialysis."
+ },
+ {
+   "A": "Gentamicin (trough)",
+   "B": "None specified",
+   "C": ">2.0",
+   "D": "μg/mL",
+   "E": "Antibiotic monitoring essential due to nephrotoxicity and ototoxicity risks at high trough levels.",
+   "F": "Renal impairment, high doses, prolonged therapy.",
+   "G": "Adjust dosage, consider alternative antibiotics, monitor renal function."
+ },
+ {
+   "A": "Lithium",
+   "B": "None specified",
+   "C": "≥1.8 or >2.0",
+   "D": "mmol/L or mEq/L",
+   "E": "Mood stabilizer with narrow therapeutic index; toxicity can lead to severe neurological and renal symptoms.",
+   "F": "Renal failure, dehydration, drug interactions, overdose.",
+   "G": "Stop lithium, administer IV fluids, monitor renal function, consider dialysis."
+ },
+ {
+   "A": "Blood Culture",
+   "B": "Positive",
+   "C": "",
+   "D": "N/A",
+   "E": "Detection of bacteremia. Positive culture indicates bloodstream infection requiring immediate treatment.",
+   "F": "Sepsis, endocarditis, IV drug use, immunosuppression.",
+   "G": "Start broad-spectrum antibiotics, collect additional cultures, consult infectious disease."
+ },
+ {
+   "A": "CSF Gram Stain",
+   "B": "Organisms Seen",
+   "C": "",
+   "D": "N/A",
+   "E": "Initial identification of bacterial meningitis. Presence of organisms on Gram stain requires prompt antimicrobial therapy.",
+   "F": "Bacterial meningitis, head trauma, neurosurgery, immunocompromised state.",
+   "G": "Start empiric antibiotics, confirm with culture, consider lumbar puncture."
+ },
+ {
+   "A": "CSF Culture",
+   "B": "Organisms Isolated/Detected",
+   "C": "",
+   "D": "N/A",
+   "E": "Definitive diagnosis of bacterial meningitis or other infections. Positive culture necessitates targeted therapy.",
+   "F": "Bacterial meningitis, ventriculitis, brain abscess, systemic infection.",
+   "G": "Initiate targeted antibiotic therapy based on culture results, notify infection control."
+ },
+ {
+   "A": "Body Fluids (sterile) Gram Stain",
+   "B": "Organisms Seen",
+   "C": "",
+   "D": "N/A",
+   "E": "Detection of bacteria in sterile body fluids (e.g., pleural, peritoneal). Positive stain indicates infection.",
+   "F": "Peritonitis, pleuritis, pericarditis, trauma, post-surgery.",
+   "G": "Start empiric antibiotics, confirm with culture, monitor patient closely."
+ },
+ {
+   "A": "Body Fluids (sterile) Culture",
+   "B": "Organisms Seen/Isolated",
+   "C": "",
+   "D": "N/A",
+   "E": "Confirmation of bacterial infection in sterile body fluids. Positive culture requires targeted therapy.",
+   "F": "Bacterial peritonitis, empyema, cholecystitis, abscess.",
+   "G": "Administer targeted antibiotics, monitor for sepsis, consult surgery if needed."
+ },
+ {
+   "A": "Rapid Malaria",
+   "B": "Positive",
+   "C": "",
+   "D": "N/A",
+   "E": "Rapid identification of malaria parasites. Positive result requires immediate antimalarial treatment.",
+   "F": "Travel to endemic areas, immunosuppression, blood transfusion, congenital transmission.",
+   "G": "Administer antimalarial drugs immediately, confirm with blood smear, notify public health."
+ },
+ {
+   "A": "Group A Streptococcus",
+   "B": "Positive",
+   "C": "",
+   "D": "N/A",
+   "E": "Detection of Streptococcus pyogenes. Positive result indicates the need for antibiotics to prevent complications like rheumatic fever.",
+   "F": "Pharyngitis, skin infections, contact with infected individuals.",
+   "G": "Start antibiotics like penicillin, monitor for complications, consider prophylaxis for close contacts."
+ },
+ {
+   "A": "Neisseria meningitidis",
+   "B": "Positive",
+   "C": "",
+   "D": "N/A",
+   "E": "Identification of bacterial meningitis pathogen. Positive result requires immediate antibiotic therapy.",
+   "F": "Close contact with infected individuals, living in crowded settings, immunocompromised state.",
+   "G": "Administer high-dose antibiotics, initiate droplet precautions, notify public health."
+ },
+ {
+   "A": "Mycobacterium tuberculosis",
+   "B": "Positive",
+   "C": "",
+   "D": "N/A",
+   "E": "Detection of tuberculosis. Positive result requires isolation and treatment to prevent spread.",
+   "F": "Close contact with infected individuals, immunosuppression, endemic areas.",
+   "G": "Isolate patient, start anti-TB therapy, report to public health."
+ },
+ {
+   "A": "MRSA",
+   "B": "Positive",
+   "C": "",
+   "D": "N/A",
+   "E": "Detection of methicillin-resistant Staphylococcus aureus. Positive result necessitates specific antibiotic therapy.",
+   "F": "Hospital-acquired infections, chronic wounds, invasive devices, previous antibiotic use.",
+   "G": "Start vancomycin or alternative antibiotics, initiate contact precautions, notify infection control."
+ },
+ {
+   "A": "VRE",
+   "B": "Positive",
+   "C": "",
+   "D": "N/A",
+   "E": "Detection of vancomycin-resistant Enterococcus. Positive result requires infection control measures and targeted therapy.",
+   "F": "Long hospital stays, antibiotic use, immunosuppression, invasive devices.",
+   "G": "Start linezolid or other alternatives, implement strict infection control, consider cohorting patients."
+ },
+ {
+   "A": "ESBL",
+   "B": "Positive",
+   "C": "",
+   "D": "N/A",
+   "E": "Detection of extended-spectrum beta-lactamase-producing bacteria. Positive result requires use of appropriate antibiotics.",
+   "F": "Hospital-acquired infections, use of invasive devices, previous antibiotic therapy.",
+   "G": "Use carbapenems or alternative antibiotics, initiate contact precautions, notify infection control."
+ },
+ {
+   "A": "CRE",
+   "B": "Positive",
+   "C": "",
+   "D": "N/A",
+   "E": "Detection of carbapenem-resistant Enterobacteriaceae. Positive result indicates need for aggressive infection control and specific antibiotics.",
+   "F": "Long-term hospital stays, antibiotic use, invasive devices, immunosuppression.",
+   "G": "Start appropriate antibiotics, implement infection control measures, notify public health."
+ },
+ {
+   "A": "VISA/VRSA",
+   "B": "Positive",
+   "C": "",
+   "D": "N/A",
+   "E": "Detection of vancomycin-intermediate or resistant Staphylococcus aureus. Positive result requires specific treatment and infection control.",
+   "F": "Hospital exposure, previous antibiotic use, invasive devices, chronic illness.",
+   "G": "Administer antibiotics, implement respiratory precautions, notify public health."
+ },
+ {
+   "A": "Bordetella pertussis",
+   "B": "Positive",
+   "C": "",
+   "D": "N/A",
+   "E": "Detection of Bordetella pertussis, the cause of whooping cough. Positive result requires antibiotic therapy and isolation.",
+   "F": "Close contact with infected individuals, respiratory droplets, lack of vaccination.",
+   "G": "Start antibiotics like azithromycin, notify public health, implement infection control measures."
+ },
+ {
+   "A": "Legionella spp.",
+   "B": "Positive",
+   "C": "",
+   "D": "N/A",
+   "E": "Detection of Legionella, which causes Legionnaires' disease. Positive result requires antibiotic therapy and environmental investigation.",
+   "F": "Contaminated water sources, immunosuppression, smoking, chronic lung disease.",
+   "G": "Administer antifungal therapy, implement strict infection control, consider cohorting patients."
+ },
+ {
+   "A": "Candida auris",
+   "B": "Positive",
+   "C": "",
+   "D": "N/A",
+   "E": "Detection of drug-resistant Candida auris. Positive result necessitates strict infection control measures and antifungal therapy.",
+   "F": "Hospital exposure, immunosuppression, chronic conditions, invasive devices.",
+   "G": "Immediate needle decompression or chest tube insertion, monitor respiratory status, consult thoracic surgery."
+ },
+ {
+   "A": "New pneumothorax",
+   "B": "Present",
+   "C": "",
+   "D": "N/A",
+   "E": "Detection of air in the pleural space. New pneumothorax requires immediate intervention, often chest tube placement.",
+   "F": "Trauma, mechanical ventilation, underlying lung disease, procedural complications.",
+   "G": "Administer anticoagulants, consider thrombolytics in severe cases, monitor for hemodynamic stability."
+ },
+ {
+   "A": "Pulmonary embolism",
+   "B": "Present",
+   "C": "",
+   "D": "N/A",
+   "E": "Detection of blood clots in pulmonary arteries. New pulmonary embolism requires anticoagulation and possibly thrombolysis.",
+   "F": "Deep vein thrombosis, prolonged immobility, cancer, surgery, trauma.",
+   "G": "Urgent surgical consultation, initiate IV fluids, prepare for potential emergency surgery."
+ },
+ {
+   "A": "New Pneumoperitoneum",
+   "B": "Present",
+   "C": "",
+   "D": "N/A",
+   "E": "Detection of free air in the abdominal cavity. New pneumoperitoneum requires urgent surgical evaluation.",
+   "F": "Perforated viscus, trauma, postoperative complication, peptic ulcer disease.",
+   "G": "Initiate immediate surgical intervention, stabilize the patient, and address underlying cause."
+ },
+ {
+   "A": "Retro-peritoneal hematoma",
+   "B": "Present",
+   "C": "",
+   "D": "N/A",
+   "E": "Bleeding within the retroperitoneal space. Can cause hemodynamic instability and requires urgent intervention.",
+   "F": "Trauma, anticoagulation, abdominal surgery, vascular disorders.",
+   "G": "Stabilize with IV fluids or blood products, consult surgery, monitor vitals closely."
+ },
+ {
+   "A": "Acute appendicitis",
+   "B": "Present",
+   "C": "",
+   "D": "N/A",
+   "E": "Inflammation of the appendix. Can lead to rupture and peritonitis if not treated promptly.",
+   "F": "Obstruction of the appendix, infection, family history.",
+   "G": "Immediate surgical consultation, start antibiotics, prepare for possible appendectomy."
+ },
+ {
+   "A": "Ovarian/Testicular Torsion",
+   "B": "Present",
+   "C": "",
+   "D": "N/A",
+   "E": "Twisting of the ovary or testicle. Leads to ischemia and necrosis if not treated emergently.",
+   "F": "Congenital malformations, trauma, prior surgeries.",
+   "G": "Immediate surgical consultation, prepare for detorsion or orchiopexy/oophoropexy."
+ },
+ {
+   "A": "Ectopic Pregnancy",
+   "B": "Present",
+   "C": "",
+   "D": "N/A",
+   "E": "Implantation of a fertilized egg outside the uterus. Can lead to rupture and life-threatening hemorrhage.",
+   "F": "Pelvic inflammatory disease, previous ectopic pregnancy, tubal surgery.",
+   "G": "Stabilize patient, prepare for possible surgery, administer methotrexate if appropriate."
+ },
+ {
+   "A": "Aneurysm rupture or aortic dissection",
+   "B": "Present",
+   "C": "",
+   "D": "N/A",
+   "E": "Life-threatening rupture of a blood vessel. Immediate intervention is required to prevent death.",
+   "F": "Hypertension, atherosclerosis, connective tissue disorders.",
+   "G": "Immediate surgical intervention, control bleeding, manage blood pressure."
+ },
+ {
+   "A": "New brain hemorrhage",
+   "B": "Present",
+   "C": "",
+   "D": "N/A",
+   "E": "Acute bleeding in the brain. Can lead to increased intracranial pressure and brain damage.",
+   "F": "Trauma, hypertension, aneurysm, anticoagulation therapy.",
+   "G": "Administer antihypertensives, prepare for possible surgical intervention, monitor ICP."
+ },
+ {
+   "A": "New stroke",
+   "B": "Present",
+   "C": "",
+   "D": "N/A",
+   "E": "Interruption of blood flow to the brain. Immediate treatment is required to minimize brain damage.",
+   "F": "Atherosclerosis, embolism, hypertension, atrial fibrillation.",
+   "G": "Administer thrombolytics or perform thrombectomy, monitor neurological status."
+ },
+ {
+   "A": "Brain herniation",
+   "B": "Present",
+   "C": "",
+   "D": "N/A",
+   "E": "Displacement of brain tissue due to increased intracranial pressure. Requires urgent intervention.",
+   "F": "Severe head injury, stroke, brain tumors, infection.",
+   "G": "Administer hyperosmolar therapy, prepare for possible decompressive craniectomy."
+ },
+ {
+   "A": "New/worsening hydrocephalus",
+   "B": "Present",
+   "C": "",
+   "D": "N/A",
+   "E": "Abnormal accumulation of CSF in the brain. Can lead to brain damage if not treated promptly.",
+   "F": "Congenital malformations, tumors, infection, trauma.",
+   "G": "Place ventriculostomy, consider shunt placement, monitor ICP."
+ },
+ {
+   "A": "Spinal cord compression",
+   "B": "Present",
+   "C": "",
+   "D": "N/A",
+   "E": "Compression of the spinal cord. Can cause permanent neurological damage if not relieved quickly.",
+   "F": "Spinal tumors, trauma, degenerative diseases, infection.",
+   "G": "Administer corticosteroids, prepare for possible surgery, monitor neurological status."
+ },
+ {
+   "A": "Findings suggestive of child abuse",
+   "B": "Present",
+   "C": "",
+   "D": "N/A",
+   "E": "Radiologic findings that suggest physical abuse in a child. Requires immediate reporting and investigation.",
+   "F": "Physical trauma, neglect, inconsistent injury explanations.",
+   "G": "Report to authorities, consult child protective services, ensure patient safety."
+ },
+ {
+   "A": "Misplaced surgical hardware",
+   "B": "Present",
+   "C": "",
+   "D": "N/A",
+   "E": "Incorrect placement of surgical hardware. Can cause damage to surrounding tissues and organs.",
+   "F": "Surgical error, inadequate imaging, improper device selection.",
+   "G": "Immediate surgical consultation, consider revision surgery, obtain imaging for confirmation."
+ },
+ {
+   "A": "New or enlarging cerebral aneurysm",
+   "B": "Present",
+   "C": "",
+   "D": "N/A",
+   "E": "New or growing aneurysm in the brain. Risk of rupture increases as the aneurysm enlarges.",
+   "F": "Hypertension, smoking, genetic predisposition, polycystic kidney disease.",
+   "G": "Monitor aneurysm size, consult neurosurgery, consider surgical intervention."
+ },
+ {
+   "A": "Undiagnosed infection, inflammatory process, traumatic injury or probable malignancy",
+   "B": "Present",
+   "C": "",
+   "D": "N/A",
+   "E": "Radiologic findings suggesting an undiagnosed condition that may be serious. Requires further evaluation.",
+   "F": "Infections, autoimmune diseases, traumatic injuries, cancer.",
+   "G": "Further diagnostic evaluation, consult appropriate specialists, monitor closely."
+ },
+ {
+   "A": "Malpositioned device, line or tube",
+   "B": "Present",
+   "C": "",
+   "D": "N/A",
+   "E": "Incorrect placement of medical devices. Can lead to ineffective treatment or injury.",
+   "F": "Improper placement, patient movement, inadequate imaging.",
+   "G": "Reposition device, consider removal, confirm placement with imaging."
+ },
+ {
+   "A": "Retained, ingested, self-inflicted or unexplained foreign body",
+   "B": "Present",
+   "C": "",
+   "D": "N/A",
+   "E": "Foreign body detected in the body. May require urgent removal depending on location and type.",
+   "F": "Trauma, ingestion, insertion, accidents.",
+   "G": "Consult surgery for removal, monitor for complications, obtain imaging."
+ },
+ {
+   "A": "New significant wall motion abnormalities (ECHO)",
+   "B": "Present",
+   "C": "",
+   "D": "N/A",
+   "E": "Abnormal movement of the heart wall. Indicates possible myocardial infarction or other cardiac issue.",
+   "F": "Coronary artery disease, prior myocardial infarction, cardiomyopathy.",
+   "G": "Administer anticoagulants, consider revascularization therapy, monitor cardiac function."
+ },
+ {
+   "A": "Significant pericardial effusion/tamponade (ECHO)",
+   "B": "Present",
+   "C": "",
+   "D": "N/A",
+   "E": "Accumulation of fluid in the pericardium. Can lead to cardiac tamponade and requires urgent drainage.",
+   "F": "Infection, trauma, autoimmune diseases, malignancy.",
+   "G": "Immediate pericardiocentesis, monitor hemodynamics, consult cardiology."
+ },
+ {
+   "A": "New significant valvular disease (ECHO)",
+   "B": "Present",
+   "C": "",
+   "D": "N/A",
+   "E": "New or worsening valvular disease. Can lead to heart failure or other serious complications.",
+   "F": "Rheumatic fever, endocarditis, degenerative diseases.",
+   "G": "Consult cardiology, consider valve replacement or repair, monitor hemodynamics."
+ },
+ {
+   "A": "Significant aortic aneurysm (ECHO)",
+   "B": "Present",
+   "C": "",
+   "D": "N/A",
+   "E": "Expansion of the aorta. Risk of rupture increases with size, requiring monitoring or surgery.",
+   "F": "Atherosclerosis, hypertension, genetic predisposition.",
+   "G": "Monitor aneurysm size, consult vascular surgery, consider elective repair."
+ },
+ {
+   "A": "Thrombus/Mass/Vegetation (ECHO)",
+   "B": "Present",
+   "C": "",
+   "D": "N/A",
+   "E": "Presence of thrombus, mass, or vegetation in the heart. Can lead to embolism or infection.",
+   "F": "Infection, endocarditis, cancer, prior cardiac surgery.",
+   "G": "Administer anticoagulants, consider surgery, monitor for embolic events."
+ },
+ {
+   "A": "ECG with alert",
+   "B": "Present",
+   "C": "",
+   "D": "N/A",
+   "E": "Electrocardiogram indicating a critical abnormality. Immediate review and action required.",
+   "F": "Heart disease, electrolyte imbalances, drug effects.",
+   "G": "Immediate cardiology consultation, repeat ECG, consider emergency intervention."
+ },
+ {
+   "A": "New acute ST elevation myocardial infarction pattern",
+   "B": "Present",
+   "C": "",
+   "D": "N/A",
+   "E": "Pattern indicating an acute ST elevation myocardial infarction. Requires immediate intervention.",
+   "F": "Coronary artery disease, plaque rupture, coronary spasm.",
+   "G": "Activate STEMI protocol, administer aspirin and anticoagulants, prepare for PCI."
+ },
+ {
+   "A": "New tachycardia",
+   "B": ">160 bpm (ventricular rate)",
+   "C": "",
+   "D": "N/A",
+   "E": "Newly identified fast heart rate. Can indicate underlying arrhythmias or other conditions.",
+   "F": "Electrolyte imbalances, stress, underlying heart disease, medications.",
+   "G": "Assess underlying cause, correct electrolytes, consider antiarrhythmic drugs."
+ },
+ {
+   "A": "Complete (third degree) atrioventricular heart block",
+   "B": "Present",
+   "C": "",
+   "D": "N/A",
+   "E": "Complete blockage of electrical impulses from atria to ventricles. Requires urgent pacing.",
+   "F": "Conduction system disease, myocardial infarction, drug toxicity.",
+   "G": "Initiate temporary pacing, consult cardiology, prepare for possible permanent pacemaker insertion."
+ },
+ {
+   "A": "Pause or sinus arrest",
+   "B": ">3 seconds",
+   "C": "",
+   "D": "N/A",
+   "E": "Interruption in the heart's rhythm. Can lead to syncope or sudden cardiac death if untreated.",
+   "F": "Conduction system disease, ischemia, drug effects.",
+   "G": "Immediate assessment, consider atropine or pacing, monitor closely."
+ },
+ {
+   "A": "Ventricular tachycardia",
+   "B": ">3 beats",
+   "C": "",
+   "D": "N/A",
+   "E": "Life-threatening ventricular rhythm. Requires immediate intervention to prevent cardiac arrest.",
+   "F": "Heart disease, electrolyte imbalances, prolonged QT interval.",
+   "G": "Administer antiarrhythmic drugs, prepare for possible defibrillation or cardioversion."
+ },
+ {
+   "A": "New QTC interval",
+   "B": ">500 ms",
+   "C": "",
+   "D": "N/A",
+   "E": "Prolonged QT interval, which can lead to life-threatening arrhythmias.",
+   "F": "Congenital long QT syndrome, electrolyte imbalances, medications.",
+   "G": "Correct electrolyte imbalances, monitor closely, consult cardiology."
+ },
+ {
+   "A": "HIV",
+   "B": "Positive (reactive)",
+   "C": "",
+   "D": "N/A",
+   "E": "Positive HIV test indicating potential infection with human immunodeficiency virus.",
+   "F": "Unprotected sexual contact, needle sharing, mother-to-child transmission.",
+   "G": "Confirm with follow-up testing, initiate antiretroviral therapy, provide counseling."
+ },
+ {
+   "A": "hCG (urine/serum, qualitative)",
+   "B": "Positive",
+   "C": "",
+   "D": "N/A",
+   "E": "Positive pregnancy test. Requires follow-up to confirm and manage pregnancy.",
+   "F": "Pregnancy, recent sexual activity, fertility treatments.",
+   "G": "Confirm with quantitative testing, initiate prenatal care if positive."
+ },
+ {
+   "A": "Hemolytic transfusion reaction",
+   "B": "Evidence",
+   "C": "",
+   "D": "N/A",
+   "E": "Reaction to incompatible blood transfusion. Can lead to severe hemolysis and renal failure.",
+   "F": "ABO or Rh incompatibility, improper crossmatching.",
+   "G": "Stop transfusion immediately, administer IV fluids, monitor for DIC."
+ },
+ {
+   "A": "Septic transfusion reaction",
+   "B": "Evidence",
+   "C": "",
+   "D": "N/A",
+   "E": "Reaction due to bacterial contamination of transfused blood. Can lead to septic shock.",
+   "F": "Bacterial contamination of blood products, prolonged storage.",
+   "G": "Stop transfusion, administer broad-spectrum antibiotics, monitor for sepsis."
+ },
+ {
+   "A": "VDRL (CSF)",
+   "B": "Reactive",
+   "C": "",
+   "D": "N/A",
+   "E": "Positive VDRL test in cerebrospinal fluid, indicating possible neurosyphilis.",
+   "F": "Syphilis infection, untreated or late-stage syphilis.",
+   "G": "Confirm diagnosis with additional tests, initiate treatment for syphilis."
+ },
+ {
+   "A": "Any intraoperative exam for incorrect surgical count",
+   "B": "Positive or Negative",
+   "C": "",
+   "D": "N/A",
+   "E": "Discrepancy in surgical counts indicating potential retained surgical item. Immediate investigation required.",
+   "F": "Human error, complex surgeries, high-risk procedures.",
+   "G": "Conduct thorough surgical site inspection, obtain imaging if necessary, notify surgical team."
+ },
+ {
+   "A": "Incompatibility on Crossmatch",
+   "B": "Present",
+   "C": "",
+   "D": "N/A",
+   "E": "Mismatch between donor and recipient blood. High risk of transfusion reaction.",
+   "F": "Incorrect blood typing, clerical errors, laboratory mistakes.",
+   "G": "Stop transfusion, notify blood bank, provide supportive care."
+ },
+ {
+   "A": "Rh Negative patient receiving Rh Positive Red Blood Cells",
+   "B": "Present",
+   "C": "",
+   "D": "N/A",
+   "E": "Administering Rh Positive blood to Rh Negative patient, risking hemolytic disease.",
+   "F": "Failure to recognize Rh incompatibility, clerical error.",
+   "G": "Administer Rh immunoglobulin, monitor for signs of hemolysis, consult hematology."
+ },
+ {
+   "A": "Patient with warm autoantibody, no underlying alloantibodies",
+   "B": "Present",
+   "C": "",
+   "D": "N/A",
+   "E": "Presence of a warm autoantibody without alloantibodies. May complicate transfusion.",
+   "F": "Autoimmune hemolytic anemia, recent transfusions, autoimmune diseases.",
+   "G": "Proceed with transfusion cautiously, monitor for hemolytic reactions, consult hematology."
+ },
+ {
+   "A": "Patient with warm autoantibody & alloantibody; units are negative for respective antigens",
+   "B": "Present",
+   "C": "",
+   "D": "N/A",
+   "E": "Presence of both warm autoantibody and alloantibody. Requires special transfusion management.",
+   "F": "Autoimmune diseases, multiple transfusions, prior sensitization.",
+   "G": "Administer antigen-negative units, monitor for transfusion reactions, consult hematology."
+ },
+ {
+   "A": "Patient massively transfused & has alloantibody; units not tested for respective antigens",
+   "B": "Present",
+   "C": "",
+   "D": "N/A",
+   "E": "Massive transfusion in a patient with alloantibodies. High risk of transfusion complications.",
+   "F": "Massive transfusion protocols, emergency situations, lack of antigen-negative units.",
+   "G": "Administer compatible blood, monitor closely for reactions, consult hematology."
+ }
+]
